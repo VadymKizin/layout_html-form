@@ -2,10 +2,18 @@ fieldset {
   margin-bottom: 20px;
 }
 
-#Recommend {
-  margin-top: 10px;
+.label:not(:last-child) {
+  display: block;
+  margin-bottom: 10px;
 }
 
-input {
+.label_color {
+  display: block;
+  margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.label_footer {
+  display: block;
+  margin-top: 10px;
 }
